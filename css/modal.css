@@ -1,0 +1,40 @@
+
+/* Add this CSS to your existing stylesheet or create a new one */
+.modal {
+  display: none;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+  justify-content: center;
+  align-items: center;
+}
+
+.modal-header {
+  background-color: #333;
+  color: white;
+  padding: 10px;
+}
+
+.modal-body {
+  padding: 20px;
+  background-color: white;
+}
+
+.modal-button {
+  padding: 10px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+.modal-confirm-button {
+  background-color: green;
+  color: white;
+}
+
+.modal-cancel-button {
+  background-color: red;
+  color: white;
+}
